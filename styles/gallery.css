@@ -51,7 +51,15 @@ nav {
 }
 
 .nav_list-item:hover {
-  color: blue;
+  color: rgb(235, 191, 190);
+}
+
+h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
 }
 
 /*The gallery styling starts*/
@@ -88,6 +96,28 @@ nav {
   grid-area: 2 / 3 / 3 / 4;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.btn {
+text-align: center;
+background-color: rgb(55, 131, 202);
+color: rgb(255, 255, 255);
+border: medium none;
+border-radius: 5px;
+padding: 20px;
+cursor: pointer;
+font-family: 'Caveat', cursive;
+font-size: 20px;
+}
+
+.btn:hover {
+  color: rgb(235, 191, 190);
+}
 /* The footer style*/
 
 .footer-bar {
