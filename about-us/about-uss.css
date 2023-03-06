@@ -1,19 +1,21 @@
 body {
-    background-color: #3783ca;
+    background-color: #dbd5d4;
 }
 
 
 .navigation {
     position: relative;
     padding-right: 30px;
-    margin-left: 40px;
+    width: 100%;
 }
 
 
 .nav-bar {
+    width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    background-color: #3783ca;
 
 }
 
@@ -23,7 +25,8 @@ body {
 }
 
 .logo-mykonos {
-    width: 300px;
+    margin-bottom: 10px;
+    width: 400px;
 }
 
 
@@ -44,7 +47,7 @@ nav {
 }
 
 .nav_list-item {
-    color: black;
+    color: #dbd5d4;
     text-decoration: none;
     font-size: 30px;
     padding: 10px;
@@ -52,13 +55,13 @@ nav {
 }
 
 .nav_list-item:hover {
-    color: white;
+    color: blue;
 }
 
 
 .olive {
     border-radius: 10px;
-    width: 650px;
+    width: 450px;
 }
 
 
@@ -84,6 +87,7 @@ nav {
 h2 {
     font-family: 'Caveat', cursive;
     font-size: 60px;
+    color: black;
 }
 
 
@@ -109,14 +113,16 @@ p {
     font-family: 'Poppins', sans-serif;
     line-height: 30px;
     text-align: center;
+    color: black;
 
 }
 
 .second-section {
-    margin-top: 80px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
 
@@ -135,6 +141,50 @@ p {
 
 
 .feta-cheese {
-    width: 650px;
+    width: 450px;
     border-radius: 10px;
+}
+
+.third-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-gallery {
+    width: 400px;
+    gap: 20px;
+}
+
+.olive-oil,
+.greek-salad,
+.tuna {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+
+.footer-bar {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #3783ca;
+}
+
+.fa-instagram,
+.fa-facebook-f {
+    color: #dbd5d4;
+    font-size: 40px;
+}
+
+
+footer {
+    position: relative;
+    padding-right: 30px;
+    width: 100%;
 }
