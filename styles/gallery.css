@@ -1,32 +1,35 @@
-.gallery-block {
-    box-sizing: border-box;
+body {
     margin: auto;
     max-width: 1100px;
-    width: 100%;
-    margin-top: 30px;
-    padding-top: 70px;
-    width: 100%;
-    height: 770px;
     background-color: #dbd5d4;
-    border: solid;
-    border-width: 10px;
-    border-color: #94AEE8;  
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.gallery-grid {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  height: 634px;
+  max-width: 918px;
+  width: 100%;
   gap: 22px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: hidden;
 }
 
-.right-images {
-  display: flex;
-  gap: 16px;
-  flex-direction: column;
+.img-authentic {
+  grid-area: 1 / 1 / 3 / 2;
 }
 
-.right-bottom {
-  display: flex;
-  gap: 22px;
+.img-rice {
+  grid-area: 1 / 2 / 2 / 4;
+}
+
+.img-sallad {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.img-hummus {
+  grid-area: 2 / 3 / 3 / 4;
 }
