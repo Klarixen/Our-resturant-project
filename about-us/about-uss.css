@@ -55,7 +55,7 @@ nav {
 }
 
 .nav_list-item:hover {
-    color: blue;
+    color: #ebbfbb;
 }
 
 
@@ -180,6 +180,12 @@ p {
 .fa-facebook-f {
     color: #dbd5d4;
     font-size: 40px;
+}
+
+
+.fa-instagram:hover,
+.fa-facebook-f:hover {
+    color: #ebbfbb;
 }
 
 
