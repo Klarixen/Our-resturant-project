@@ -134,6 +134,10 @@ font-size: 20px;
   font-size: 40px;
 }
 
+.fa-instagram:hover,
+.fa-facebook-f:hover {
+    color: #ebbfbb;
+}
 
 footer {
   margin-top: 50px;
