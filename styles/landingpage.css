@@ -1,0 +1,85 @@
+body {
+width: 100%;
+height:auto;
+background-color: #dbd5d4;
+color:black;
+margin: auto;
+font-family: 'Poppins', sans-serif;
+
+}
+header {
+    display: flex;
+    flex-direction: row;
+    background-color:#3783ca ;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-family: 'caveat';
+    height: ;
+}
+.head-pic {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+
+}
+
+.nav_list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav_list-item {
+    color: #DBD5D4;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.nav_list-item:hover {
+    color:#ebbfbb;
+
+}
+.top-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+p {
+    padding: 20px;
+    line-height: 1.5;
+}
+.footer-bar {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #3783ca;
+  }
+  
+  .fa-instagram,
+  .fa-facebook-f {
+    color: #dbd5d4;
+    font-size: 40px;
+  }
+  
+  .fa-instagram:hover,
+  .fa-facebook-f:hover {
+      color: #ebbfbb;
+  }
+  
+  footer {
+    margin-top: 50px;
+    position: relative;
+    padding-right: 30px;
+    width: 100%;
+    font-family: 'caveat';
+  }
+  
